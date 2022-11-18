@@ -1,0 +1,55 @@
+<html> 
+ 
+<head>    
+	 <style>      
+	   body {  
+		background-color: rgba(240, 248, 255, 0.447);            
+		font-family: Arial, Helvetica, sans-serif;            
+		padding: 30px;     
+	             } 
+ 	 .rform {             
+		border: 1px solid gray;           
+		width: 400px;            
+		padding: 20px;       
+		background-color: rgb(219, 234, 247);   
+	                  border-radius: 10px;      
+	              }        
+	  tr, td   {             
+		padding: 10px;    
+	              } 
+ 	  .input {            
+		 height: 30px;            
+		 width: 240px;             
+		 border: none;            
+		 border-radius: 2px;         
+	              }     
+</style> 
+</head>
+<body>    
+	 <center>      
+	   <div class="rform">           
+	  <h2>Login Form</h2>           
+	  <form action="p4.php" method="POST" autocomplete="off">     
+	            <table>                    
+		  <tr>                         
+		  <td>username : </td>     
+                                     <td><input class="input" type="text" name="name"></td>           
+	          	  </tr>                   
+		  <tr>  
+	                       <td> Pass : </td>                   
+		     <td><input class="input" type="password" name="pass"></td>         
+	                   </tr> 
+	            </table>      
+		           <button type="submit">Submit</button>       
+	      </form> 
+ 
+        		</div>     
+		</center>   
+		  <footer style="text-align:center; margin-top: 100px; font-size: 30px; fontfamily: cursive; color: rgb(60, 103, 232);">         
+		    <hr>     
+		    <h5>             Developed By Parag         </h5>  
+		  </footer>
+ </body> 
+ 
+</html> 
+ 
